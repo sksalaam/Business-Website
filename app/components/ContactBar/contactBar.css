@@ -1,0 +1,39 @@
+@media(max-width: 1330px){
+    .contact{
+        margin-left:0px;
+        margin-right: 0px;
+    }
+  
+}
+
+@media(max-width: 980px){ 
+    .wrapper{
+        display: flex;
+        justify-content: center
+    }
+    .social{
+      display: none;
+    }   
+}
+
+@media(max-width: 780px){
+    .wrapper{
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .contact{
+        margin: 0;
+        font-size: smaller;
+    }
+    
+    .social{
+      display: none;
+    }   
+}
+
+@media(max-width:500px){
+    .wrapper{
+        display: none;
+    }
+}
